@@ -16,6 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    wsMenuBtn.menuStyle=WSMenuStyleLine;
+//    wsMenuBtn.WSMenuControlColor=[UIColor redColor];
+//    wsMenuBtn.menuStyle=WSMenuStyleDot;
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -24,6 +27,12 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+- (IBAction)menuButtonAction:(id)sender {
+    
+}
+
 
 
 @end

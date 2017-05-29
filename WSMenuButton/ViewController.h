@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WSMenuControl.h"
 
 @interface ViewController : UIViewController
-
-
+{
+    __weak IBOutlet WSMenuControl *wsMenuBtn;
+    
+}
+- (IBAction)menuButtonAction:(id)sender;
 @end
 

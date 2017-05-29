@@ -15,6 +15,7 @@
 		6059C9AA1E939C2900F88A51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6059C9A81E939C2900F88A51 /* LaunchScreen.storyboard */; };
 		6059C9B51E939C2A00F88A51 /* WSMenuButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6059C9B41E939C2A00F88A51 /* WSMenuButtonTests.m */; };
 		6059C9C01E939C2A00F88A51 /* WSMenuButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6059C9BF1E939C2A00F88A51 /* WSMenuButtonUITests.m */; };
+		6059C9CF1E939C9B00F88A51 /* WSMenuControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 6059C9CE1E939C9B00F88A51 /* WSMenuControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		6059C9BB1E939C2A00F88A51 /* WSMenuButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WSMenuButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6059C9BF1E939C2A00F88A51 /* WSMenuButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSMenuButtonUITests.m; sourceTree = "<group>"; };
 		6059C9C11E939C2A00F88A51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6059C9CD1E939C9B00F88A51 /* WSMenuControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSMenuControl.h; sourceTree = "<group>"; };
+		6059C9CE1E939C9B00F88A51 /* WSMenuControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSMenuControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				6059C9A81E939C2900F88A51 /* LaunchScreen.storyboard */,
 				6059C9AB1E939C2900F88A51 /* Info.plist */,
 				6059C99A1E939C2900F88A51 /* Supporting Files */,
+				6059C9CD1E939C9B00F88A51 /* WSMenuControl.h */,
+				6059C9CE1E939C9B00F88A51 /* WSMenuControl.m */,
 			);
 			path = WSMenuButton;
 			sourceTree = "<group>";
@@ -275,6 +280,7 @@
 			files = (
 				6059C9A21E939C2900F88A51 /* ViewController.m in Sources */,
 				6059C99F1E939C2900F88A51 /* AppDelegate.m in Sources */,
+				6059C9CF1E939C9B00F88A51 /* WSMenuControl.m in Sources */,
 				6059C99C1E939C2900F88A51 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = WSMenuButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TD.WSMenuButton;
@@ -435,6 +442,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = WSMenuButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TD.WSMenuButton;
@@ -507,6 +515,7 @@
 				6059C9C61E939C2A00F88A51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6059C9C71E939C2A00F88A51 /* Build configuration list for PBXNativeTarget "WSMenuButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +524,7 @@
 				6059C9C91E939C2A00F88A51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6059C9CA1E939C2A00F88A51 /* Build configuration list for PBXNativeTarget "WSMenuButtonUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +533,7 @@
 				6059C9CC1E939C2A00F88A51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
